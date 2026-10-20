@@ -41,14 +41,16 @@ h1, h2, h3, .preis {
 
 ## 2. Navigation mit Logo und Favicon
 
-Das Logo kommt später aus VectorCraft. Bis dahin steht hier ein Platzhalterpfad.
+Das Logo liegt in `assets/logo/`. Auf dunklem Grund wie hier in der Nav immer `by-musti-negativ.svg` nehmen, auf hellem Grund `by-musti.svg`.
 
 ```html
 <link rel="icon" href="assets/logo/by-musti-favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/logo/by-musti-favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/logo/by-musti-favicon-180.png">
 
 <nav class="nav">
   <a href="/" class="nav__logo">
-    <img src="assets/logo/by-musti.svg" alt="by Musti Friseur" height="44">
+    <img src="assets/logo/by-musti-negativ.svg" alt="by Musti Friseur" height="60">
   </a>
   <a href="#leistungen">Leistungen</a>
   <a href="#preise">Preise</a>

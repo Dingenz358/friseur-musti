@@ -19,6 +19,8 @@ Pixel & Pinselzug
 - Milchglas `#D7DAD6` – Frosted-Flächen
 - Ziegel-Weiß `#F5F5F2` – heller Hintergrund
 
+**Logo:** liegt als SVG bei (`by-musti.svg` für hellen, `by-musti-negativ.svg` für dunklen Grund). Nicht verzerren, nicht umfärben, keinen Schatten oder Glow. Mindestabstand rundherum: die Höhe des schwarzen FRISEUR-Balkens.
+
 **Schriften:** Barlow Condensed (Bold/ExtraBold, Versalien) für Überschriften und Preise, Barlow (Regular/Medium) für Fließtext. Das handschriftliche Logo bleibt ein Bild, keine Schrift nachbauen.
 
 **Ton:** direkt, freundlich, präzise. Kurze Sätze, Du-Form, Deutsch.

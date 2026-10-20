@@ -4,7 +4,8 @@ Erstellt am 20.10.2026 mit der Higgsfield CLI 1.2.2.
 
 - **Modell:** nano_banana_pro, Auflösung 2k, 1 Generierung pro Asset, keine Wiederholungen
 - **Credits:** 8 × 2 = **16 Credits** (Guthaben vorher 270)
-- **Nicht im Paket:** Logo (folgt über VectorCraft), Video (bewusst weggelassen)
+- **Nicht im Paket:** Video (bewusst weggelassen)
+- **Logo:** ohne KI nachgebaut, siehe Abschnitt „Logo“ unten (0 Credits)
 
 | Datei | Web-Version | Format | Job-ID |
 | --- | --- | --- | --- |
@@ -51,9 +52,24 @@ Erstellt am 20.10.2026 mit der Higgsfield CLI 1.2.2.
 
 > Photograph on a pure solid black background (#000000): fine short cut hair clippings and tiny hair particles drifting and scattered through the air, frozen in motion, backlit so the hairs catch thin highlights, slight motion blur on a few, sparse and airy, concentrated on the left and lower edge, mostly empty black space. Clean pure black background for screen blend compositing. No text, no letters, no logos, no objects, no people, no colour cast.
 
+## Logo (`logo/`)
+
+Das bestehende Logo wurde vom Schildfoto vektorisiert, nicht neu entworfen. Vorlage war das Foto der Milchglas-Tafel; dort ist der obere Teil des „b“ abgeschnitten. Diesen Teil (ca. 60 px bei Fotogröße) habe ich anhand des Ladenschilds im Schaufensterfoto gemessen und als gerade Verlängerung mit runder Kappe ergänzt. Werkzeug: OpenCV-Freistellung nach Farbe, 4-fach hochskaliert und geglättet, Vektorisierung mit vtracer.
+
+| Datei | Einsatz |
+| --- | --- |
+| `by-musti.svg` / `.png` | Standard auf hellem Grund: „by“ Musti-Grün, Rest Lack-Schwarz, „FRISEUR“ ausgespart |
+| `by-musti-negativ.svg` / `.png` | Dunkler Grund: „by“ Musti-Grün, Rest Ziegel-Weiß |
+| `by-musti-schwarz.svg` / `.png` | Einfarbig schwarz (Stempel, Fax, Gravur) |
+| `by-musti-weiss.svg` / `.png` | Einfarbig weiß (Folie auf Glas, auf Fotos) |
+| `by-musti-favicon.svg`, `-32/-180/-512.png` | Favicon und App-Icon: grünes „by“ auf Lack-Schwarz |
+| `vergleich-original-vektor.png` | Kontrollbild Foto gegen Vektor |
+
+„FRISEUR“ ist als Aussparung im schwarzen Balken angelegt, nicht als Schrift. Auf farbigem Grund scheint der Hintergrund durch, genau wie beim Original auf dem Milchglas. PNGs sind 2400 px breit mit transparentem Hintergrund.
+
 ## Sonstige Dateien
 
 - `palette.md` – Farbpalette mit Hex-Codes
 - `embed-guide.md` – HTML/CSS-Snippets zum Einbauen
 - `claude-design-brief.md` – Text für Claude Design
-- `vorschau-embed-guide.jpg` – Screenshot aller Snippets aus dem Embed Guide zusammen gerendert (Logo noch Platzhalter)
+- `vorschau-embed-guide.jpg` – Screenshot aller Snippets aus dem Embed Guide zusammen gerendert 
